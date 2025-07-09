@@ -20,9 +20,9 @@ time.sleep(5)
 
 try:
     metric = driver.find_element(By.XPATH, "//*[contains(text(), 'ROAS')]")
-    print("✅ Login successful. Dashboard loaded. ROAS found.")
+    print("Login successful. Dashboard loaded. ROAS found.")
 except:
-    print("❌ ROAS not found. Dashboard may not have loaded correctly.")
+    print(" ROAS not found. Dashboard may not have loaded correctly.")
 
 
 driver.quit()
